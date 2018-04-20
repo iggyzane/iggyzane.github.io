@@ -45,6 +45,29 @@
                 </div>
             </div>
         </header>
+	    <script type="text/javascript">
+jQuery(document).ready(function($) {
+    $('#mc-embedded-subscribe-form').submit(function (e) {
+        e.preventDefault();
+        $.ajax({
+            url: '//publiqly.us14.list-manage.com/subscribe/post-json?u=5e08d0ec976ea8929c31531bc&id=72b16de3f4&c=?',
+            type: 'GET',
+            data: $('#mc-embedded-subscribe-form').serialize(),
+            dataType: 'jsonp',
+            contentType: "application/json; charset=utf-8",
+            success: function (data) {
+               if (data['result'] != "success") {
+                    //ERROR
+                    console.log(data['msg']);
+               } else {
+                    //SUCCESS - Do what you like here
+                    window.location = 'https://publiqly.com/blog-subscription-thank-you/';
+               }
+            }
+        });
+    });
+});
+</script>
     </body>
 
 </html>
