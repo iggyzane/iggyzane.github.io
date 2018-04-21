@@ -35,7 +35,7 @@ header.startup h1 {
 }
 
 .buttonHolder {
-  text-align: center;
+  text-align: center !important;
 }
 
 .btn {
