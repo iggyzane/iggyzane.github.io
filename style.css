@@ -34,6 +34,10 @@ header.startup h1 {
   font-size: 4rem; 
 }
 
+.buttonHolder {
+  text-align: center;
+}
+
 .btn {
   font-weight: 700;
   text-transform: uppercase;
