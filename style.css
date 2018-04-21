@@ -6,6 +6,7 @@ html {
 
 body {
   font-family: 'Gugi', cursive;
+  text-align: center;
 }
 
 hr {
@@ -39,8 +40,6 @@ header.startup h1 {
   text-transform: uppercase;
   border-radius: 300px;
   font-family: 'Gugi', cursive;
-  text-align: center !important;
-
 }
 
 .btn-xl {
