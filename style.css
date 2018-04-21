@@ -8,6 +8,9 @@ body {
   font-family: 'Gugi', cursive;
 }
 
+div {
+  text-align: center;
+
 hr {
   max-width: 65px;
   border-width: 3px;
@@ -32,10 +35,6 @@ header.startup hr {
 
 header.startup h1 {
   font-size: 4rem; 
-}
-
-.buttonHolder {
-  text-align: center !important;
 }
 
 .btn {
