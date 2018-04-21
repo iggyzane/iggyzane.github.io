@@ -8,10 +8,6 @@ body {
   font-family: 'Gugi', cursive;
 }
 
-div {
-  text-align: center !important;
-}
-
 hr {
   max-width: 65px;
   border-width: 3px;
